@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Namespace ASE_Assignment </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Namespace ASE_Assignment ">
+    
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ASE_Assignment">
+
+  <h1 id="ASE_Assignment" data-uid="ASE_Assignment" class="text-break">Namespace ASE_Assignment</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">
+Classes
+</h3>
+      <h4><a class="xref" href="ASE_Assignment.AppCanvas.html">AppCanvas</a></h4>
+      <section><p>Represents a canvas for drawing various shapes and handling pen operations.</p>
+</section>
+      <h4><a class="xref" href="ASE_Assignment.AppCommandFactory.html">AppCommandFactory</a></h4>
+      <section><p>A specialized factory class for creating custom commands such as <code>tri</code>, <code>write</code>, <code>for</code>, and <code>while</code>.
+Inherits from <span class="xref">BOOSE.CommandFactory</span> and enhances it with additional command types.</p>
+</section>
+      <h4><a class="xref" href="ASE_Assignment.CanvasException.html">CanvasException</a></h4>
+      <section><p>Custom exception class for canvas-related errors.</p>
+</section>
+      <h4><a class="xref" href="ASE_Assignment.CommandArray.html">CommandArray</a></h4>
+      <section><p>Represents a custom implementation of an array command, inheriting functionality from the <span class="xref">BOOSE.Array</span> class.
+Includes additional error handling and parameter validation.</p>
+</section>
+      <h4><a class="xref" href="ASE_Assignment.CommandFor.html">CommandFor</a></h4>
+      <section><p>Custom implementation of the &quot;for&quot; command, extending the functionality of the <span class="xref">BOOSE.For</span> class from BOOSE.
+Provides options for additional restrictions and custom behavior.</p>
+</section>
+      <h4><a class="xref" href="ASE_Assignment.CommandInt.html">CommandInt</a></h4>
+      <section><p>Customized implementation of the &quot;int&quot; command, removing any restrictions on its usage.</p>
+</section>
+      <h4><a class="xref" href="ASE_Assignment.CommandMethod.html">CommandMethod</a></h4>
+      <section><p>Custom implementation of the &quot;method&quot; command, removing all restrictions for its usage.</p>
+</section>
+      <h4><a class="xref" href="ASE_Assignment.CommandParser.html">CommandParser</a></h4>
+      <section><p>A class responsible for parsing and processing commands, integrating with a drawing canvas and error display.</p>
+</section>
+      <h4><a class="xref" href="ASE_Assignment.CommandPeek.html">CommandPeek</a></h4>
+      <section><p>Custom implementation of the &quot;peek&quot; command, extending the <span class="xref">BOOSE.Peek</span> class.
+Modifies behavior for compiling, executing, and parameter validation, with enhanced error handling.</p>
+</section>
+      <h4><a class="xref" href="ASE_Assignment.CommandPoke.html">CommandPoke</a></h4>
+      <section><p>Custom implementation of the &quot;poke&quot; command, extending the <span class="xref">BOOSE.Poke</span> class.
+Modifies behavior for compiling, executing, and validating parameters, with custom error handling.</p>
+</section>
+      <h4><a class="xref" href="ASE_Assignment.CommandReal.html">CommandReal</a></h4>
+      <section><p>Custom implementation of the &quot;real&quot; command to remove any restrictions.</p>
+</section>
+      <h4><a class="xref" href="ASE_Assignment.CommandTriangle.html">CommandTriangle</a></h4>
+      <section><p>Represents a command to draw a triangle on the canvas with specified dimensions.</p>
+</section>
+      <h4><a class="xref" href="ASE_Assignment.CommandWhile.html">CommandWhile</a></h4>
+      <section><p>Custom implementation of the &quot;while&quot; command.
+Extends the BOOSE <span class="xref">BOOSE.While</span> class, removing restrictions and enabling customization.</p>
+</section>
+      <h4><a class="xref" href="ASE_Assignment.CustomStoredProgram.html">CustomStoredProgram</a></h4>
+      <section><p>Custom implementation of a stored program that allows enhanced functionality,
+such as clearing variables and resetting the program state.</p>
+</section>
+      <h4><a class="xref" href="ASE_Assignment.Form1.html">Form1</a></h4>
+      <section><p>Represents the main form for the application, which provides the user interface
+and integrates with the canvas for drawing operations.</p>
+</section>
+
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
